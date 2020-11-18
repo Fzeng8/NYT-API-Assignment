@@ -48,7 +48,7 @@
 
       getNYTimesData: function () {
           var currentSearchWord = app.searchContent.value;
-          var nyTimesURL = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=' + currentSearchWord + '&page=0&sort=newest&api-key=';
+          var nyTimesURL = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?q=' + currentSearchWord + '&page=0&sort=newest&api-key=';
           var myNYKey = 'S7F6zaK725Ux6PnXjveRXg09GLFwp1Xx';
           var nyTimesReqURL = nyTimesURL + myNYKey;
           console.log(nyTimesReqURL);
